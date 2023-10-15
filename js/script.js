@@ -1,3 +1,9 @@
-// js min 10 line
+setInterval(() =>{
+    let date = new Date()
+    let clock = document.getElementById('clock')
+    clock.innerHTML =
+        date.getHours()+":"+
+        date.getMinutes()+":"+
+        date.getSeconds()
+}, 1000);
 
-// alert("welcome to my final project");
